@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+ <head> 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+ 
+  <title>Mi aplicacion</title>
+
+  <!--grupo CSS-->
+  <link rel="stylesheet" href="css/jquery.mobile-1.4.5.min.css" />
+  <link rel="stylesheet" href="css/jquery.mobile.icons-1.4.5.min.css" />
+  <link rel="stylesheet" href="css/jquery.mobile.structure-1.4.5.min.css" /> 
+        
+        
+
+
+  <!--grupo JavaScript-->
+  <script src="js/jquery-1.11.2.min.js"></script>
+  <script src="js/jquery.mobile-1.4.5.min.js"></script>
+  <script src="js/acciones.js" type="text/javascript"></script>
+  <!-- <script src="phonegap.js" type="text/javascript"></script> -->
+ </head>
+
+ <body>
+ 
+ <!-- Principal -->
+ <div data-role="page" id="principal" >   
+  <div data-role="header">
+    <h1>Aplicacion 05</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+   <div align="center">
+   <div style="width:30%;">
+    <input type="text" id="txtnombre" value="" placeholder="Nombre">
+   </div>
+   </div>
+   
+   <div align="center">
+    <a href="#" id="btndatos" class="ui-btn ui-icon-arrow-r ui-btn-icon-right ui-btn-inline">Siguiente</a>
+   </div>
+  </div>
+
+  <div data-role="footer">
+    <h1>@FernandaAguilar</h1>
+  </div>
+ </div>  
+ <!-- Principal -->
+ 
+ <!-- Datos -->
+ <div data-role="page" id="datos" >   
+  <div data-role="header">
+    <h1>Aplicacion 05</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+    <div align="center">
+    <div style="width:30%;">
+    <input type="number" id="txtpeso" value="" placeholder="Peso">
+    <input type="number" id="txttalla" value="" placeholder="Talla">
+    <a href="#" id="btnresultado" class="ui-btn ui-icon-arrow-r ui-btn-icon-right ui-btn-inline">Siguiente</a>
+   </div>
+   </div>
+  </div>
+
+  <div data-role="footer">
+    <h1>@FernandaAguilar</h1>
+  </div>
+ </div>  
+ <!-- Datos -->
+ 
+ <!-- Resultados -->
+ <div data-role="page" id="resultado" >   
+  <div data-role="header">
+    <h1>Aplicacion 05</h1>
+  </div>
+
+  <div data-role="main" class="ui-content">
+   <div align=center> 
+    <h1>Resultado</h1>
+    <h2>IMC</h2>
+   </div>
+   
+   <div align="center" id="imc">
+   <div style="width:30%;">
+   </div>
+   </div>
+  </div>
+
+  <div data-role="footer">
+    <h1>@FernandaAguilar</h1>
+  </div>
+ </div>  
+ <!-- Resultados -->
+
+ </body>
+</html> 
